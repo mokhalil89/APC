@@ -1,0 +1,40 @@
+Request method:	POST
+Request URI:	https://api.covid19api.com/webhook
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "url": ""
+}
+HTTP/1.1 400 Bad Request
+Date: Sun, 06 Mar 2022 23:39:23 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 111
+Connection: keep-alive
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: 
+Access-Control-Expose-Headers: Content-Length
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Vary: Origin
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Ratelimit-Limit: 10
+X-Ratelimit-Remaining: 6
+X-Ratelimit-Reset: 1646609967
+X-Request-Id: 8afdb4698eb424cf6f64f40f86fe30e0
+X-Xss-Protection: 1; mode=block
+
+{
+    "message": "Webhook URL must contain protocol - either http or https. e.g. http://example.com"
+}
