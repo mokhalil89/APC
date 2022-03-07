@@ -29,4 +29,3 @@ Use the maven command line to run testcases
 mvn test
 ```
 
-## View Test plan for Mobile [APC Mobile Test Cases](APC Mobile Test Cases.xlsx)
